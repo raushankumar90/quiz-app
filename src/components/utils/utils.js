@@ -22,8 +22,8 @@ export class MyDatabase {
   createOAuthSession = async()=>{
     account.createOAuth2Session(
       OAuthProvider.Google,
-      'http://localhost:5173/language',
       'https://quiz-app-gamma-black.vercel.app/language',
+      'https://quiz-app-gamma-black.vercel.app/login',
     )
   }
   listDataByEmail = async (email) => {
