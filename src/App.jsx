@@ -7,7 +7,7 @@ import TestRunning from "./components/TestPageScreen";
 import NewTestSettings from "./components/NewTestSettings";
 import { BrowserRouter, Routes, Route } from "react-router";
 import TestingPage from "./components/Testing";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 import { getUser } from "./reduxApp/features/authentication";
 import { useDispatch,useSelector } from "react-redux";
 import Loading from "./components/smallcomponents/LoadingTcon";

@@ -1,5 +1,8 @@
 import "../App.css";
 import DetailCard from "./smallcomponents/DeatilCards";
+import img1 from "../assets/pexels-leeloothefirst-5428833.jpg";
+import img2 from "../assets/pexels-mikhail-nilov-7988086.jpg";
+import img3 from "../assets/pexels-jorge-jesus-137537-614117.jpg"
 function TestHome() {
   return (
     <div className="tsethome pb-10 bg-gray-900">
@@ -14,21 +17,21 @@ function TestHome() {
           description={
             "Our <strong>AI-Powered</strong> mcq plateform generates dynamic,high-quality mcq tailored to your needs"
           }
-          imagepath={"pexels-leeloothefirst-5428833.jpg"}
+          imagepath={img1}
         ></DetailCard>
         <DetailCard
           title={"Instant Feedback and Explanation"}
           description={
             " Get <strong>real-time feedback</strong> after each question! Our AI provide correct answer and detailed explanation to help you understand the concept better"
           }
-          imagepath={"pexels-mikhail-nilov-7988086.jpg"}
+          imagepath={img2}
         ></DetailCard>
         <DetailCard
           title={"Languages and Modes"}
           description={
             " Practice with any programming language in different difficulty modes <strong>easy</strong> , <strong>medium</strong> and <strong>hard</strong>"
           }
-          imagepath={"pexels-mikhail-nilov-7988086.jpg"}
+          imagepath={img3}
         ></DetailCard>
       </div>
     </div>

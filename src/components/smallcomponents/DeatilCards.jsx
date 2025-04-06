@@ -7,8 +7,8 @@ function DetailCard({ title, description, imagepath }) {
       <div
         className={`mt-3 sm:mt-0 sm:mb-0 bg-contain s1 w-1/2 
           mx-auto  ring ring-white rounded-full border 
-          md:-translate-y-15 w-30 sm:w-40 h-30 sm:h-40`}
-          style={{backgroundImage:`url(src/assets/${imagepath})`}}
+          md:-translate-y-15  sm:w-40 h-30 sm:h-40`}
+          style={{backgroundImage:`url(${imagepath}`}}
       ></div>
       <div className=" text-center">
         <p
