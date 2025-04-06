@@ -23,7 +23,7 @@ export class MyDatabase {
     account.createOAuth2Session(
       OAuthProvider.Google,
       'http://localhost:5173/language',
-      'http://localhost:5173/login'
+      'https://quiz-app-gamma-black.vercel.app/language',
     )
   }
   listDataByEmail = async (email) => {
