@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 import { getUser } from "./reduxApp/features/authentication";
 import { useDispatch,useSelector } from "react-redux";
 import Loading from "./components/smallcomponents/LoadingTcon";
-import Result from "./components/result";
+import Result from "./components/Result";
 function App() {
   const dispatch  = useDispatch()
   const { isAuthenticated, status } = useSelector(
